@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:text="RESULTADO"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:textColor="@color/purple_700"
+        tools:text="EX 26.999"
+        android:id="@+id/textview_result"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:textColor="@color/red"
+        android:id="@+id/textViewClassificacao"
+        tools:text="EX resultado classificação"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        />
+
+    <TextView
+        android:text="🔽 Classificação do IMC de acordo com a OMS:"
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:text=" ● IMC menor que 18,5 kg/m² - Baixo peso"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:text=" ● IMC entre 18,5 kg/m² e 24,9 kg/m² - Peso adequado"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:text=" ● IMC entre 25 kg/m² e 29,9 kg/m² - Sobrepeso"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:text=" ● IMC entre 30 kg/m² e 34,9 kg/m² - Obesidade grau 1"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:text=" ● IMC entre 35 kg/m² e 39,9 kg/m² - Obesidade grau 2"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text=" ● IMC maior que 40 kg/m² - Obesidade extrema"
+        android:textSize="14sp"
+        />
+
+
+</LinearLayout>
